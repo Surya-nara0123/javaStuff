@@ -65,10 +65,6 @@ public class ScrollPaneDemo extends Frame {
         ScrollPane scrollPane = new ScrollPane();
         scrollPane.add(textArea); // Add the text area to the scroll pane
 
-        // Set scrollbar policies
-        scrollPane.setVerticalScrollBarPolicy(ScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
-        scrollPane.setHorizontalScrollBarPolicy(ScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-
         add(scrollPane); // Add the scroll pane to the frame
 
         // Close window on close event
